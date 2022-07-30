@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* contenu au dessus du footer doit prendre tte la place donc il doit avoir un grow 1 */
+/* .div dessus footer{
+    1:grow 0:shrink auto: 
+    flex: 1 0 auto;
+} */
+.contenu {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+    border-top: 1px solid #ffbf00;
+    width: 100%;
+    /* height: 150px; */
+}
+.contenufooter {
+    width: auto;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.bloc {
+    width: auto;
+}
+.footer-contact h3,
+.footer-reso h3,
+.footer-name h3 {
+    color: #ffbf00;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-family: "Roboto";
+}
+.name {
+    list-style-type: none;
+}
+.reso {
+    font-size: 16px;
+}
+
+.footer-contact,
+.footer-reso,
+.footer-name {
+    text-decoration: none;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.foot {
+    color: #1b998b;
+    text-decoration: none;
+}
+.foot:hover {
+    color: #ffbf00 !important        ;
+}
+.footer-reso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* ############## Partie navbar ########## */
+
+#nav {
+    background-color: #1b998b;
+    height: 200px;
+}
+#wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ########### Partie modal ######## */
+/* ############## Login ############## */
+
+.modal-content,
+.modal-footer,
+.modal-header,
+.modal-body {
+    background-color: #a4969b;
+    border-color: #1b998b;
+    border-width: 2px;
+}
+#loginFloatingPassword,
+#loginFloatingName {
+    border-color: #1b998b;
+    border-width: 2px;
+}
+#form_btn {
+    height: 2rem !important;
+    z-index: 1;
+}
+
+/* ############## Register ############## */
+
+#floatingConfirmPassword,
+#floatingPassword,
+#floatingPhoneContact2,
+#floatingContact2,
+#floatingPhoneContact1,
+#floatingContact1,
+#floatingTel,
+#floatingAge,
+#floatingEmail,
+#floatingPseudo,
+#floatingLastName,
+#floatingFirstName {
+    border-color: #1b998b;
+    border-width: 2px;
+}
+.btn_G_L {
+    width: 45%;
+    padding: 5px;
+    flex-direction: row;
+}
+.logo {
+    width: 100% !important;
+    height: 50px !important;
+    transition: transform 0.2s; /* Animation */
+    margin: 0 auto;
+}
+.logo:hover {
+    transform: scale(1.2) !important;
+}
+.card {
+    width: 25rem !important;
+    height: 22rem !important;
+}
+
+.card-img-top {
+    height: 12rem !important;
+}
+.list_treck {
+    padding-left: 1%;
+    /* height: 2.5px !important; */
+    margin-top: 15px;
+    margin-bottom: 1.5rem;
+    margin-left: 5px;
+    width: 100%;
+    margin-right: 5px;
+
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.list_treck_fin {
+    padding-left: 1%;
+    /* height: 2.5px !important; */
+    margin-top: 15px;
+    /* margin-bottom: 1.5rem; */
+    margin-left: 5px;
+    width: 100%;
+    margin-right: 5px;
+
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.clas_ligne_listtreck {
+    width: 150px;
+}
+.form-control {
+    width: 50% !important;
+}
+.bareacueil {
+    height: 2.5px !important;
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
+.bare_text_aceuil {
+    padding-left: 1%;
+    height: 2.5px !important;
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 100%;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+}
