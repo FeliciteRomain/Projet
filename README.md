@@ -1,7 +1,7 @@
 ## La caze à gâteaux
 
 
-Bienvenue sur Treckin Secu.re, un site qui prpopose un suivi de parcours et une personnalisation de trajet.
+Bienvenue à La caze à gâteaux, un site qui vous propose de découvrir nos pâtisseries ainsi que d'y passer des commandes.
 
 ## Pour commencer
 
