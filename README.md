@@ -5,7 +5,7 @@ Bienvenue sur Treckin Secu.re, un site qui prpopose un suivi de parcours et une 
 
 ## Pour commencer
 
-Pour prévisualiser le site cliquez sur le lien figam ci-dessous:
+Pour prévisualiser le site cliquez sur le lien figma ci-dessous:
 
  -version mobile:
  https://www.figma.com/proto/SesYZrfcNNyQ2BXqhXsSvU/Trek?node-id=203%3A1578&starting-point-node-id=203%3A1578
@@ -13,8 +13,6 @@ Pour prévisualiser le site cliquez sur le lien figam ci-dessous:
  -version PC:
  https://www.figma.com/proto/SesYZrfcNNyQ2BXqhXsSvU/Trek?node-id=235%3A2968&starting-point-node-id=235%3A2968
 
-Pour visiter le site clliquez sur le lien ci-dessous:
- https://treckinsecur-sprint-08.dwwm-12-2021.simplon.re
 
 ## Frameworks
     - Figma: création de la maquette
